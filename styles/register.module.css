@@ -1,0 +1,40 @@
+input{
+    outline: none;
+    border: none;
+    padding-right: 4.7rem !important;
+}
+
+input.login{
+    padding-right: 5.8rem !important;
+}
+
+
+.form-check input:valid {
+    border: thin #198754 solid;
+}
+
+.form-check input:invalid {
+    border: thin #dc3545 solid;
+} 
+
+
+
+.password-group{
+    position: relative;
+}
+
+
+.password-group button {
+    position: absolute;
+    appearance: none;
+    border: none;
+    background: transparent;
+    right: 14px;
+    top: 37px;
+    color: #0a58ca;
+    display: none;
+}
+
+.password-group button.is-active{
+    display: block;
+}

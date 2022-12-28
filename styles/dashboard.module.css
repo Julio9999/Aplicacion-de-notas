@@ -1,0 +1,7 @@
+.add-task{
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+    z-index: 100;
+    font-size: 3rem !important;
+}
